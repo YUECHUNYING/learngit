@@ -33,3 +33,7 @@ git diff (工作区和暂存区的比较 ，可以看开发过程中修改了那些内容)
 沒有提交，返回最后一次提交后的状态  git checkout -- readme.txt
 
 （作为测试git checkout -- file 存在 当改变并且添加到暂存区 需要先回退版本  只是回退添加到暂存区的 直接 git reset HEAD --readme.txt 即可，然后本地文件再使用 git checkout -- readme.txt）
+
+
+1,当改乱了工作区文件的内容，想直接丢弃工作区的修改时，用命令 git checkout -- file
+2,当改乱了工作区文件的内容并且添加到了暂存区的时候，先使用命令 git reset HEAD file，然后再使用命令 git checkout -- 文件名
