@@ -37,3 +37,10 @@ git diff (工作区和暂存区的比较 ，可以看开发过程中修改了那些内容)
 
 1,当改乱了工作区文件的内容，想直接丢弃工作区的修改时，用命令 git checkout -- file
 2,当改乱了工作区文件的内容并且添加到了暂存区的时候，先使用命令 git reset HEAD file，然后再使用命令 git checkout -- 文件名
+
+
+删除文件 rm file
+
+1，误删除 使用 git checkout -- file  (从版本库里拉取文件)
+2，确实想删除  git rm file 然后  git commit -m "";
+
