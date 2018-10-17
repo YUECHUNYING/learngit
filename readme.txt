@@ -44,3 +44,14 @@ git diff (工作区和暂存区的比较 ，可以看开发过程中修改了那些内容)
 1，误删除 使用 git checkout -- file  (从版本库里拉取文件)
 2，确实想删除  git rm file 然后  git commit -m "";
 
+
+cd ~  进入用户的主目录文件
+
+
+让本地的git仓库和github上面的git仓库远程同步  -在github上创建一个仓库，然后在本地仓库执行命令
+1，让本地仓库和github上面的仓库关联  git remote add origin git@github.com:YUECHUNYING/learngit.git
+2,  把本地的内容推送到远程github库上  git push -u origin master
+
+
+
+生成秘钥：ssh-keygen -t rsa -C "你自己的邮箱" (shell 或者是 git bash下面)
