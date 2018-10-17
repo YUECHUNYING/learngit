@@ -31,3 +31,5 @@ git diff (工作区和暂存区的比较 ，可以看开发过程中修改了那些内容)
 尝试看git add 但是不进行 git commit
 
 沒有提交，返回最后一次提交后的状态  git checkout -- readme.txt
+
+（作为测试git checkout -- file 存在 当改变并且添加到暂存区 需要先回退版本  只是回退添加到暂存区的 直接 git reset HEAD --readme.txt 即可，然后本地文件再使用 git checkout -- readme.txt）
