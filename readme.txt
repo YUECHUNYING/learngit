@@ -29,3 +29,5 @@ git log (提交历史)
 git diff (工作区和暂存区的比较 ，可以看开发过程中修改了那些内容)
 
 尝试看git add 但是不进行 git commit
+
+沒有提交，返回最后一次提交后的状态  git checkout -- readme.txt
