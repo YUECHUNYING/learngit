@@ -55,3 +55,13 @@ cd ~  进入用户的主目录文件
 
 
 生成秘钥：ssh-keygen -t rsa -C "你自己的邮箱" (shell 或者是 git bash下面)
+
+
+在github上新建一个仓库，在本地执行 git clone 建成仓库后的地址
+
+
+git branch dev  (git命令创建一个分支)
+git dev(分支的名称) （切换到dev这个分支）
+git checkout -b dev (创建dev分支并且切换到dev分支上)
+
+git branch （查看分支列表）
