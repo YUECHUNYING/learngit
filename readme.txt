@@ -61,7 +61,7 @@ cd ~  进入用户的主目录文件
 
 
 git branch dev  (git命令创建一个分支)
-git dev(分支的名称) （切换到dev这个分支）
+git checkout dev(分支的名称) （切换到dev这个分支）
 git checkout -b dev (创建dev分支并且切换到dev分支上)
 
 git branch （查看分支列表）
